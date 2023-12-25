@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width" />
+  <title>guess_number_game</title>
+  <base href="/" />
+  <link rel="icon" href="favicon.ico" />
+  <!-- <link type="text/css" rel="stylesheet" href="main.css" /> -->
+  <link rel="stylesheet" href="https://cdn.simplecss.org/simple.min.css">
+</head>
+
+<body>
+  <section>
+    <h2>Guess 2/3 of the Average Game</h2>
+
+    <p>
+      In game theory, "guess 2/3 of the average" is a game that explores how a player’s strategic reasoning process
+      takes into account the mental
+      process of others in the game.
+    </p>
+    <p>
+      In this game, players simultaneously select a real number between 0 and 100, inclusive. The winner of the game is
+      the player(s) who select a number closest to 2/3 of the average of numbers chosen by all players.
+    </p>
+    <p>
+      It is an incomplete demo version, so if you refresh the page, you need to login again.
+    </p>
+
+    <hr>
+
+    <span>Login to Play Game: </span>
+    <button id="login">Login With Internet Identity</button>
+
+    <hr>
+
+    <!-- <span>Check Your Principal ID: </span> -->
+    <button id="whoAmI">Check Your Login State</button>
+    <p id="principal"></p>
+
+
+    <hr>
+
+    <form id="guessForm">
+      <label for="guessInput">Enter your guess:</label>
+      <input type="number" id="guessInput" name="guessInput" required>
+      <button type="submit" id="submit_btn">Submit</button>
+    </form>
+    <div id="result">123</div>
+  </section>
+
+  <section>
+    <h3>Game Info</h3>
+    <ul>
+      <li>
+        <p>Current Round: <span>3</span></p>
+      </li>
+
+      <li>
+        <p>Current Round Participating Players: <span>256</span></p>
+      </li>
+
+      <li>
+        <p>Current Round Ends In: <span>1000</span> seconds</p>
+      </li>
+    </ul>
+  </section>
+
+  <footer>demo version</footer>
+
+</body>
+
+</html>
